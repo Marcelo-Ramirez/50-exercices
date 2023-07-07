@@ -5,7 +5,7 @@
  function numbSecond(arr){
    let n1 =0
    let n2 =0
-   for(let i =0,f=1; i<arr.length; i+=2;f+=2){
+   for(let i =0,f=1; i<arr.length; i+=2,f+=2){
      if(arr[i]>n1){
        n1 = arr[i]
      }
@@ -20,4 +20,4 @@
    }
  }
  
- console.log(numbSecond([1,2,3,4,5,6,7,8])
+ console.log(numbSecond([1,2,3]))
